@@ -6,7 +6,7 @@ A principal vantagem do Markdown é que ele pode ser escrito de forma simples em
 
 Principais Funcionalidades do Markdown
 
-1. Títulos e Subtítulos
+1 Títulos e Subtítulos
 # Título 1
 ## Título 2
 ### Título 3
@@ -15,11 +15,11 @@ Principais Funcionalidades do Markdown
 ###### Título 6
 Quanto mais #, menor o tamanho do título.
 
-2. Ênfase (Negrito e Itálico)
+2 Ênfase (Negrito e Itálico)
 **Texto em negrito**
 *Texto em itálico*
 
-3. Listas (Ordenadas e Não Ordenadas)
+3 Listas (Ordenadas e Não Ordenadas)
 
 Lista ordenada (com números):
 1. Primeiro item
@@ -34,14 +34,14 @@ Lista não ordenada (com -, * ou +):
   - Subitem 2.1
   - Subitem 2.2
 
-4. Links e Imagens
+4 Links e Imagens
 Adicionar links:
 [Texto do link](https://exemplo.com)
 
 Adicionar imagens:
 ![Texto alternativo da imagem](https://exemplo.com/imagem.jpg)
 
-5. Códigos e Blocos de Código
+5 Códigos e Blocos de Código
 Código inline
 Para instalar essa lib rode `yarn install`
 
@@ -63,8 +63,9 @@ yarn install
 
 
 
-7. Tabelas
+7 Tabelas
 Tabelas podem ser criadas usando | e -:
+
 | Nome    | Idade | Cidade     |
 |---------|------|-----------|
 | João    | 25   | São Paulo |
