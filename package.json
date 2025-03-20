@@ -10,5 +10,8 @@
     "prepare": "husky",
     "test": "echo \"Nenhum teste definido\" && exit 0",
     "lint": "npx eslint"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
