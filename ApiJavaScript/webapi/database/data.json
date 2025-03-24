@@ -1,6 +1,12 @@
-{
-    "id": 1,
-    "name": "John",
-    "age": 30,
-    "power": "ancient"
-}
+[
+    {
+        "id": 1,
+        "name": "Xuxa",
+        "age": 30,
+        "power": "ancient"
+    },
+    {
+        "ïd": 2,
+        "name": "chapolin"
+    }
+]
