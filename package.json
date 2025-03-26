@@ -12,6 +12,7 @@
     "lint": "npx eslint"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "node-fetch": "^3.3.2"
   }
 }
