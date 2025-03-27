@@ -10,8 +10,7 @@
   "scripts": {
     "prepare": "husky",
     "test": "echo \"Nenhum teste definido\" && exit 0",
-    "lint": "npx eslint",
-    "dev": "nodemon index.js"
+    "lint": "npx eslint"
   },
   "dependencies": {
     "express": "^4.21.2",
