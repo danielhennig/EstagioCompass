@@ -2,10 +2,20 @@ const express = require('express');
 
 const server = express();
 
-// localhost:3000/curso
-server.get('/curso', (req, res) => {
+//queri params = ?node_NodeJS
+//route params = /curso/2
+//request body = { nome: "Node.js", tipo: "backend" }
 
-  return res.send({ curso: 'Node.js' });
+
+const cursos = ['Node.js', 'Javascript', 'React Native'];
+
+
+// localhost:3000/curso
+server.get('/curso/:index', (req, res) => {
+  const { index } = req.params;
+
+
+  return res.json(cursos[index]);
 
 });
 server.listen(3000);
