@@ -1,5 +1,4 @@
-const { Router } = require('express');
-
+import { Router } from 'express';
 const routes = new Router();
 
 routes.get('/', (req, res) => {
@@ -7,4 +6,4 @@ routes.get('/', (req, res) => {
 }
 );
 
-module.exports = routes; //exportando as rotas para serem utilizadas no app.js
+export default routes;
