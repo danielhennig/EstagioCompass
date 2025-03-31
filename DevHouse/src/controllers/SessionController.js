@@ -7,10 +7,17 @@ show: quando queremos listar uma unica sessao
 update: alterar uma sessao
 destroy: deletar uma sessao
 */
+
+import User from '../models/User.js';
 class SessionController {
 
-    store(req, res) {
-        return res.json({ message: 'Minha api!' });
+    async store(req, res) {
+
+        const { email } = req.body;
+
+        let user = await User.create({ email });
+
+        return res.json(user);
 
     }
 }
